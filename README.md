@@ -28,6 +28,18 @@
   </p>
 </p>
 
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AwesomeFeature`)
+3. Commit your Changes (`git commit -m 'Add some AwesomeFeature'`)
+4. Push to the Branch (`git push origin feature/AwesomeFeature`)
+5. Open a Pull Request
+
 <!-- LICENSE -->
 
 ## License
@@ -47,4 +59,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
 [license-url]: https://github.com/KamrulSh/git-cookbook/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/makamrulshahin
+[linkedin-url]: https://linkedin.com/in/mdkamrulshahin
