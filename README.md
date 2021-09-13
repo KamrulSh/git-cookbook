@@ -8,6 +8,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
+
 <br />
 <p align="center">
   <a href="https://github.com/KamrulSh/git-cookbook">
@@ -27,6 +28,72 @@
     <a href="https://github.com/KamrulSh/git-cookbook/pulls">Pull Requests</a>
   </p>
 </p>
+
+<!-- TABLE OF CONTENTS -->
+
+<details open="open">
+  <summary><h2>Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- INSTALLATION -->
+
+## Installation
+
+### Install Git on Ubuntu
+
+* Install Git using apt-get:
+
+  ```sh
+  sudo apt-get update
+  ```
+  ```sh
+  sudo apt-get install git
+  ```
+* Check git version: 
+  ```sh
+  git --version
+  ```
+  
+### Configure your Git username and email: (Ubuntu/Windows/Mac)
+
+* Show current configuration:
+
+  ```sh
+  git config --list
+  ```
+* Show repository configuration:
+  ```sh
+  git config --local --list
+  ```
+* Show global configuration:
+  ```sh
+  git config --global --list
+  ```
+* Show system configuration:
+  ```sh
+  git config --system --list
+  ```
+* Set a name that is identifiable for credit when review version history:
+  ```sh
+  git config --global user.name "firstname lastname"
+  ```
+* Set an email address that will be associated with each history marker:
+  ```sh
+  git config --global user.email "example@example.com"
+  ```
+* Set automatic command line coloring for Git for easy reviewing:
+  ```sh
+  git config --global color.ui auto
+  ```
+* Set global editor (Visual Studio Code) for commit
+  ```sh
+  git config --global core.editor "code --wait"
+  ```
 
 <!-- CONTRIBUTING -->
 
