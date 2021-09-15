@@ -16,7 +16,7 @@
   </a>
 
   <h3 align="center">Git Cookbook</h3>
-
+  <h4 align="center">Author: Kamrul Islam Shahin 🇧🇩</h4>
   <p align="center">
     Learning git from absolute beginning.
     <br />
@@ -46,51 +46,54 @@
 
 ### Install Git on Ubuntu
 
-* Install Git using apt-get:
+- Install Git using apt-get:
 
   ```sh
   sudo apt-get update
   ```
+
   ```sh
   sudo apt-get install git
   ```
-* Check git version: 
+
+- Check git version:
   ```sh
   git --version
   ```
-  
+
 ### Configure your Git username and email: (Ubuntu/Windows/Mac)
 
-* Show current configuration:
+- Show current configuration:
 
   ```sh
   git config --list
   ```
-* Show repository configuration:
+
+- Show repository configuration:
   ```sh
   git config --local --list
   ```
-* Show global configuration:
+- Show global configuration:
   ```sh
   git config --global --list
   ```
-* Show system configuration:
+- Show system configuration:
   ```sh
   git config --system --list
   ```
-* Set a name that is identifiable for credit when review version history:
+- Set a name that is identifiable for credit when review version history:
   ```sh
   git config --global user.name "firstname lastname"
   ```
-* Set an email address that will be associated with each history marker:
+- Set an email address that will be associated with each history marker:
   ```sh
   git config --global user.email "example@example.com"
   ```
-* Set automatic command line coloring for Git for easy reviewing:
+- Set automatic command line coloring for Git for easy reviewing:
   ```sh
   git config --global color.ui auto
   ```
-* Set global editor (Visual Studio Code) for commit
+- Set global editor (Visual Studio Code) for commit
   ```sh
   git config --global core.editor "code --wait"
   ```
@@ -115,15 +118,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/kamrulSh/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/kamrulSh/git-cookbook.svg?style=for-the-badge
 [contributors-url]: https://github.com/KamrulSh/git-cookbook/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/kamrulSh/git-cookbook.svg?style=for-the-badge
 [forks-url]: https://github.com/KamrulSh/git-cookbook/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/kamrulSh/git-cookbook.svg?style=for-the-badge
 [stars-url]: https://github.com/KamrulSh/git-cookbook/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/kamrulSh/git-cookbook.svg?style=for-the-badge
 [issues-url]: https://github.com/KamrulSh/git-cookbook/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/kamrulSh/git-cookbook.svg?style=for-the-badge
 [license-url]: https://github.com/KamrulSh/git-cookbook/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/mdkamrulshahin
